@@ -1,4 +1,5 @@
 import { AssetUploadCard } from "@/components/asset-upload-card";
+import { ConnectRepositoryCard } from "@/components/connect-repository-card";
 import { DashboardHeader } from "@/components/dashboard-header";
 import { EndpointSubmissionCard } from "@/components/endpoint-submission-card";
 import { SeoGeneratorCard } from "@/components/seo-generator-card";
@@ -18,6 +19,9 @@ export default function DashboardPage() {
             <SeoGeneratorCard />
           </div>
           <EndpointSubmissionCard />
+          <div className="lg:col-span-2">
+            <ConnectRepositoryCard />
+          </div>
         </div>
       </main>
     </div>
